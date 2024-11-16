@@ -6,10 +6,10 @@ export default function RegTemplate() {
 
   const features = [
     {
-      image: '../public/images/report.png', // Replace with actual image URLs
-      heading: 'F.I.R',
+      image: '../public/images/will.png', // Replace with actual image URLs
+      heading: 'Will Aggrement',
       buttonText: 'Get Started',
-      link: 'fir'
+      link: 'will'
     },
     {
       image: '../public/images/lease.png',
@@ -37,7 +37,7 @@ export default function RegTemplate() {
     <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl text-teal-100">
       Explore Our Features
     </h1>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:h-auto lg:h-[350px] lg:w-[80rem]">
+    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-${features.length % 4} gap-10 sm:h-auto lg:h-[350px] lg:w-[80rem]`}>
       {features.map((feature, index) => (
         <div
           key={index}

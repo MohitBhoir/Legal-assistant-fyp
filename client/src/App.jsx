@@ -14,10 +14,9 @@ const App = () => {
            <Route path="/" element={<Home/>} />
            <Route path="/find-lawyer" element={<FindLawyer/>} />
            <Route path="/find-template" element={<FindTemplate/>} />
-            <Route path='/find-template/fir' element={<Template template={'fir'} />} />
-            <Route path='/find-template/name-change' element={<Template template={'name-change'} />} />
-            <Route path='/find-template/property' element={<Template template={'property'} />} />
-            <Route path='find-template/lease' element={<Template template={'lease'} />} />
+
+            <Route path='/find-template/:temp' element={<Template />} />
+            
            <Route path="/register-case" element={<RegisterCase/>} />
        </Routes>
     </Router>
