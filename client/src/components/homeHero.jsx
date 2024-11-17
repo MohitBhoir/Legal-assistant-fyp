@@ -27,10 +27,10 @@ export default function Hero() {
     <section className="w-full h-full dark:bg-gray-900 justify-center flex flex-col">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, error?
+          Your Trusted Legal Companion for Simplified Solutions
         </h1>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quo natus praesentium libero temporibus placeat et doloremque excepturi, sed ut doloribus sunt eum beatae quae laboriosam aliquam recusandae nesciunt soluta facilis corporis! Labore, iure tempora.
+          Effortlessly navigate legal complexities with our intelligent legal assistant application, designed to provide accurate guidance, streamline document management, and offer real-time support—all at your fingertips.
         </p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
           <button
